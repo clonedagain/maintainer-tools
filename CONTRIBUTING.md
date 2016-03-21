@@ -44,7 +44,7 @@ The `x.y.z` version numbers follow the semantics `breaking.feature.fix`:
 
   * `x` increments when the data model or the views had significant
     changes. Data migration might be needed, or depending modules might
-    be affected.
+    be affected, or the module was migrated to a newer version of Odoo.
   * `y` increments when non-breaking new features are added. A module
     upgrade will probably be needed.
   * `z` increments when bugfixes were made. Usually a server restart
